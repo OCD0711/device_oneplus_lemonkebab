@@ -576,3 +576,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_touch_timer_ms=200 \
     ro.surface_flinger.use_color_management=true \
     ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# OCD SU
+PRODUCT_PACKAGES += \
+    ocd
+
+# isen feature
+$(call inherit-product, vendor/isen/isen.mk)
+
+PRODUCT_COPY_FILES += \
+		      vendor/isen/init_shell/init_shell.sh:system/bin/init_shell.sh
