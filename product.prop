@@ -20,10 +20,3 @@ ro.com.baidu.input.pad_land_b=10
 
 # Camera
 ro.com.google.lens.oem_camera_package=com.oneplus.camera
-
-# Locale
-ro.product.locale=zh-CN
-# SetupWizard Disable
-ro.setupwizard.mode=DISABLED
-# 4G only
-ro.telephony.default_network=24
